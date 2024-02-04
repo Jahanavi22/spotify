@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="spotify.css">
+</head>
+<body>
+  
+  
+  <div class="main">
+    <h1>Music for everyone.</h1>
+    <p>Millions of songs. No credit card needed.</p>
+    
+    <div class="music-player">
+      <!-- Add your music player elements here -->
+      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <div class="featured-playlists">
+      <h2>Featured Playlists</h2>
+      <!-- Add your featured playlists here -->
+      <div class="playlist">
+        <img src="https://th.bing.com/th/id/OIP.sRdtSRNRujMqTULTK1KaXgHaHD?w=219&h=209&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Playlist 1">
+        <p>Chill Vibes</p>
+      </div>
+      <div class="playlist">
+        <img src="https://th.bing.com/th/id/OIP.k4BE-yr7-7bHde49mdKIMwHaHa?w=189&h=189&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Playlist 2">
+        <p>Upbeat Hits</p>
+      </div>
+    </div>
+
+    <div class="signup-form">
+      <h2>Sign Up for Free</h2>
+      <form id="signupForm">
+        <input type="email" id="emailInput" placeholder="Email address" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Questions? Contact us at support@spotify.com</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
